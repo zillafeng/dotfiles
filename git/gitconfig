@@ -1,7 +1,7 @@
 # set your user tokens as environment variables, such as ~/.secrets
 # See the README for examples.
 [color]
-  ui = true
+	ui = true
 [color "branch"]
   current = yellow reverse
   local = yellow
@@ -109,9 +109,10 @@
   # the usual default is to push all branches
   default = upstream
 [core]
-  autocrlf = false
+	autocrlf = false
   editor = vim
   excludesfile = ~/.yadr/git/gitignore
+	filemode = false
 [advice]
   statusHints = false
 [diff]
@@ -125,3 +126,6 @@
   enabled = true
 [include]
   path = .gitconfig.user
+[user]
+	name = zillafeng
+	email = zillafeng@tencent.com
