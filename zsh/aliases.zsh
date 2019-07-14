@@ -212,3 +212,9 @@ alias dbmu='spring rake db:migrate:up'
 # Homebrew
 alias brewu='brew update && brew upgrade && brew cleanup && brew doctor'
 alias protoc='LD_LIBRARY_PATH=/usr/local/lib protoc'
+
+# java
+alias pyantlr='java -Xmx500M -cp /Users/z/Tools/antlr/antlr-4.7.2-complete.jar org.antlr.v4.Tool -Dlanguage=Python3'
+alias py2='python'
+alias py='python3'
+

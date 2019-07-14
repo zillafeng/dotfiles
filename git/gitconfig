@@ -129,3 +129,7 @@
 [user]
 	name = zillafeng
 	email = zillafeng@tencent.com
+[http "https://git.code.oa.com"]
+      proxy = http://127.0.0.1:12639
+[http "http://git.code.oa.com"]
+      proxy = http://127.0.0.1:12639
