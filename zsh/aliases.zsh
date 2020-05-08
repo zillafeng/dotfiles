@@ -218,3 +218,6 @@ alias pyantlr='java -Xmx500M -cp /Users/z/Tools/antlr/antlr-4.7.2-complete.jar o
 alias py2='python'
 alias py='python3'
 
+# node
+alias n='node'
+
