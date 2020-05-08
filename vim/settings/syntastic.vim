@@ -25,3 +25,7 @@ endfunction
 if !exists("g:syntastic_ruby_exec")
     let g:syntastic_ruby_exec = s:FindRubyExec()
 endif
+
+let g:syntastic_mode_map = {
+\  "mode": "passive"
+\}

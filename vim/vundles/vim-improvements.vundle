@@ -28,4 +28,12 @@ Bundle "vim-scripts/lastpos.vim"
 Bundle "vim-scripts/sudo.vim"
 Bundle "goldfeld/ctrlr.vim"
 Bundle "editorconfig/editorconfig-vim"
+Bundle "zxqfl/tabnine-vim"
 
+" Bundle "Shougo/deoplete.nvim"
+" if !has("nvim")
+"   Bundle "roxma/nvim-yarp"
+"   Bundle "roxma/vim-hug-neovim-rpc"
+" endif
+" Bundle "Shougo/neosnippet.vim"
+" Bundle "Shougo/neosnippet-snippets"
