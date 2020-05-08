@@ -282,9 +282,9 @@ function prompt_garrett_setup
 	then # on SSH
 
 		# set colors
-		eval prompt_garrett_color_user=${3:-'${green}'}
-		eval prompt_garrett_color_host=${3:-'${yellow}'}
-		eval prompt_garrett_color_prompt=${3:-'${yellow}'}
+		eval prompt_garrett_color_user=${3:-'${yellow}'}
+		eval prompt_garrett_color_host=${3:-'${green}'}
+		eval prompt_garrett_color_prompt=${3:-'${green}'}
 
 		# set style
 		eval prompt_garrett_user='%S${prompt_garrett_color_user}%n%s'
@@ -294,9 +294,9 @@ function prompt_garrett_setup
 	else # normal user
 
 		# set colors
-		eval prompt_garrett_color_user=${1:-'${green}'}
-		eval prompt_garrett_color_host=${1:-'${green}'}
-		eval prompt_garrett_color_prompt=${1:-'${grey}'}
+		eval prompt_garrett_color_user=${1:-'${grey}'}
+		eval prompt_garrett_color_host=${1:-'${grey}'}
+		eval prompt_garrett_color_prompt=${1:-'${green}'}
 
 		# set style
 		eval prompt_garrett_user=''
