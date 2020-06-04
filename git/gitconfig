@@ -129,3 +129,5 @@
 [user]
 	name = zillafeng
 	email = zillafeng@tencent.com
+[credential]
+	helper = "!f() { /root/.vscode-server/bin/5763d909d5f12fe19f215cbfdd29a91c0fa9208a/node /tmp/vscode-remote-containers-923e7055743b1451e471ff51d506c0e7838219d2.js $*; }; f"
