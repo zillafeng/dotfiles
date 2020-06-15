@@ -48,9 +48,9 @@ TRAPHUP() {
   source $yadr/zsh/aliases.zsh
 }
 
-alias ae='vim $yadr/zsh/aliases.zsh' #alias edit
-alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
-alias gar="killall -HUP -u \"$USER\" zsh"  #global alias reload
+#alias ae='vim $yadr/zsh/aliases.zsh' #alias edit
+#alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
+#alias gar="killall -HUP -u \"$USER\" zsh"  #global alias reload
 
 # vim using
 mvim --version > /dev/null 2>&1

@@ -1,6 +1,9 @@
+export PATH=/home/z/Tools/node/bin:$PATH
 export PATH=$PATH:/home/z/Tools/depot_tools
 export PATH=$PATH:/home/z/.bin
+export PATH=$PATH:/home/z/Tools/idapro-7.5
 export PATH=$PATH:/home/z/Projects/codeql-home/codeql-cli
+export PATH=$PATH:/home/z/Tools/swift/usr/bin
 
 export FD=/home/z/Projects/fuzz
 
